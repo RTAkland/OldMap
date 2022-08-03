@@ -12,7 +12,6 @@ app = FastAPI()
 
 
 @app.get('/')
-@app.post('/')
 async def index():
     """
     Index page
